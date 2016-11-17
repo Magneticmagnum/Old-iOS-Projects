@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE83C9F915E31E9A00FE93AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83C9F815E31E9A00FE93AE /* UIKit.framework */; };
+		CE83C9FB15E31E9A00FE93AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83C9FA15E31E9A00FE93AE /* Foundation.framework */; };
+		CE83C9FD15E31E9A00FE93AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83C9FC15E31E9A00FE93AE /* CoreGraphics.framework */; };
+		CE83CA0315E31E9A00FE93AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE83CA0115E31E9A00FE93AE /* InfoPlist.strings */; };
+		CE83CA0515E31E9A00FE93AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83CA0415E31E9A00FE93AE /* main.m */; };
+		CE83CA0915E31E9A00FE93AE /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83CA0815E31E9A00FE93AE /* BIDAppDelegate.m */; };
+		CE83CA0C15E31E9A00FE93AE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE83CA0A15E31E9A00FE93AE /* MainStoryboard.storyboard */; };
+		CE83CA0F15E31E9A00FE93AE /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83CA0E15E31E9A00FE93AE /* BIDViewController.m */; };
+		CE83CA1715E324B700FE93AE /* BIDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83CA1615E324B700FE93AE /* BIDDetailViewController.m */; };
+		CE83CA1915E3285300FE93AE /* tableCell.png in Resources */ = {isa = PBXBuildFile; fileRef = CE83CA1815E3285300FE93AE /* tableCell.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE83C9F415E31E9A00FE93AE /* Persona 4 Arena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persona 4 Arena.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE83C9F815E31E9A00FE93AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE83C9FA15E31E9A00FE93AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE83C9FC15E31E9A00FE93AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE83CA0015E31E9A00FE93AE /* Persona 4 Arena-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Persona 4 Arena-Info.plist"; sourceTree = "<group>"; };
+		CE83CA0215E31E9A00FE93AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE83CA0415E31E9A00FE93AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE83CA0615E31E9A00FE93AE /* Persona 4 Arena-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Persona 4 Arena-Prefix.pch"; sourceTree = "<group>"; };
+		CE83CA0715E31E9A00FE93AE /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		CE83CA0815E31E9A00FE93AE /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		CE83CA0B15E31E9A00FE93AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE83CA0D15E31E9A00FE93AE /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		CE83CA0E15E31E9A00FE93AE /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		CE83CA1515E324B700FE93AE /* BIDDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDetailViewController.h; sourceTree = "<group>"; };
+		CE83CA1615E324B700FE93AE /* BIDDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDetailViewController.m; sourceTree = "<group>"; };
+		CE83CA1815E3285300FE93AE /* tableCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableCell.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE83C9F115E31E9A00FE93AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE83C9F915E31E9A00FE93AE /* UIKit.framework in Frameworks */,
+				CE83C9FB15E31E9A00FE93AE /* Foundation.framework in Frameworks */,
+				CE83C9FD15E31E9A00FE93AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE83C9E915E31E9A00FE93AE = {
+			isa = PBXGroup;
+			children = (
+				CE83C9FE15E31E9A00FE93AE /* Persona 4 Arena */,
+				CE83C9F715E31E9A00FE93AE /* Frameworks */,
+				CE83C9F515E31E9A00FE93AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE83C9F515E31E9A00FE93AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE83C9F415E31E9A00FE93AE /* Persona 4 Arena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE83C9F715E31E9A00FE93AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE83C9F815E31E9A00FE93AE /* UIKit.framework */,
+				CE83C9FA15E31E9A00FE93AE /* Foundation.framework */,
+				CE83C9FC15E31E9A00FE93AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE83C9FE15E31E9A00FE93AE /* Persona 4 Arena */ = {
+			isa = PBXGroup;
+			children = (
+				CE83CA1815E3285300FE93AE /* tableCell.png */,
+				CE83CA0715E31E9A00FE93AE /* BIDAppDelegate.h */,
+				CE83CA0815E31E9A00FE93AE /* BIDAppDelegate.m */,
+				CE83CA0A15E31E9A00FE93AE /* MainStoryboard.storyboard */,
+				CE83CA0D15E31E9A00FE93AE /* BIDViewController.h */,
+				CE83CA0E15E31E9A00FE93AE /* BIDViewController.m */,
+				CE83C9FF15E31E9A00FE93AE /* Supporting Files */,
+				CE83CA1515E324B700FE93AE /* BIDDetailViewController.h */,
+				CE83CA1615E324B700FE93AE /* BIDDetailViewController.m */,
+			);
+			path = "Persona 4 Arena";
+			sourceTree = "<group>";
+		};
+		CE83C9FF15E31E9A00FE93AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE83CA0015E31E9A00FE93AE /* Persona 4 Arena-Info.plist */,
+				CE83CA0115E31E9A00FE93AE /* InfoPlist.strings */,
+				CE83CA0415E31E9A00FE93AE /* main.m */,
+				CE83CA0615E31E9A00FE93AE /* Persona 4 Arena-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE83C9F315E31E9A00FE93AE /* Persona 4 Arena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE83CA1215E31E9A00FE93AE /* Build configuration list for PBXNativeTarget "Persona 4 Arena" */;
+			buildPhases = (
+				CE83C9F015E31E9A00FE93AE /* Sources */,
+				CE83C9F115E31E9A00FE93AE /* Frameworks */,
+				CE83C9F215E31E9A00FE93AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Persona 4 Arena";
+			productName = "Persona 4 Arena";
+			productReference = CE83C9F415E31E9A00FE93AE /* Persona 4 Arena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE83C9EB15E31E9A00FE93AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = NoreeTech;
+			};
+			buildConfigurationList = CE83C9EE15E31E9A00FE93AE /* Build configuration list for PBXProject "Persona 4 Arena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE83C9E915E31E9A00FE93AE;
+			productRefGroup = CE83C9F515E31E9A00FE93AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE83C9F315E31E9A00FE93AE /* Persona 4 Arena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE83C9F215E31E9A00FE93AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE83CA0315E31E9A00FE93AE /* InfoPlist.strings in Resources */,
+				CE83CA0C15E31E9A00FE93AE /* MainStoryboard.storyboard in Resources */,
+				CE83CA1915E3285300FE93AE /* tableCell.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE83C9F015E31E9A00FE93AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE83CA0515E31E9A00FE93AE /* main.m in Sources */,
+				CE83CA0915E31E9A00FE93AE /* BIDAppDelegate.m in Sources */,
+				CE83CA0F15E31E9A00FE93AE /* BIDViewController.m in Sources */,
+				CE83CA1715E324B700FE93AE /* BIDDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE83CA0115E31E9A00FE93AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE83CA0215E31E9A00FE93AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE83CA0A15E31E9A00FE93AE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE83CA0B15E31E9A00FE93AE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE83CA1015E31E9A00FE93AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE83CA1115E31E9A00FE93AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE83CA1315E31E9A00FE93AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Persona 4 Arena/Persona 4 Arena-Prefix.pch";
+				INFOPLIST_FILE = "Persona 4 Arena/Persona 4 Arena-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE83CA1415E31E9A00FE93AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Persona 4 Arena/Persona 4 Arena-Prefix.pch";
+				INFOPLIST_FILE = "Persona 4 Arena/Persona 4 Arena-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE83C9EE15E31E9A00FE93AE /* Build configuration list for PBXProject "Persona 4 Arena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE83CA1015E31E9A00FE93AE /* Debug */,
+				CE83CA1115E31E9A00FE93AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE83CA1215E31E9A00FE93AE /* Build configuration list for PBXNativeTarget "Persona 4 Arena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE83CA1315E31E9A00FE93AE /* Debug */,
+				CE83CA1415E31E9A00FE93AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE83C9EB15E31E9A00FE93AE /* Project object */;
+}
